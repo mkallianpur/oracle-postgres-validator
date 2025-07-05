@@ -1,0 +1,10 @@
+oracle: "user/password@host:port/service"
+postgres: "dbname=test user=postgres password=secret host=localhost"
+tables:
+  - my_table_1
+  - my_table_2
+
+
+# requirements.txt
+cx_Oracle
+psycopg2-binary
